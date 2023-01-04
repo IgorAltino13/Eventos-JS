@@ -5,17 +5,20 @@ body{
     align-items: center;
 }
 
-
+input{
+    margin: 20px;
+}
 button{
     background-color: red;
     padding: 30px;
     color: white;
     border-radius: 50%;
     cursor: pointer;
+    margin: 40px;
 }
 
 button:hover{
     background-color: green;
     color: black;
-    transition: 2s;
+    transition: 0.5;
 }
